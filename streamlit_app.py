@@ -39,6 +39,7 @@ tf = pickle.load(open("vectorizer.pkl","rb"))
 model = pickle.load(open("model.pkl","rb"))
 
 st.title("EMAIL/SMS Sapm Classifier")
+st.write(<p style="color = red;"> "Caution: This is a basic spam classifier. It may not be 100% accurate. Always exercise caution and verify results before taking action." </p>)
 inp_msg = st.text_area("Enter message")
 
 
